@@ -9,14 +9,23 @@ console.clear();
 	- a boolean called isReported
 */
 
-// --v-- write your code here --v--
+// ---- DATA ----
+let title = "FUN TIMES";
+let text = "Me on holiday!";
+let numberOfLikes = 14;
+let creator = "rmj.steinbom";
+let isReported = true;
 
-// --^-- write your code here --^--
+// ---- CONSOLE OUTPUT----
 
-/*
-2. Log all variables to the console. Increase the likes by one and log the amount of likes again. Adapt your code from 1.1 if necessary.
-*/
-
-// --v-- write your code here --v--
-
-// --^-- write your code here --^--
+console.log(
+  title +
+    "/" +
+    text +
+    "/" +
+    numberOfLikes +
+    " Likes/" +
+    creator +
+    "/" +
+    isReported
+);
